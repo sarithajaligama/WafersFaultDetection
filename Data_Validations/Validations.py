@@ -79,31 +79,31 @@ class Validations:
                                         n_totalValues = len(df)
                                         if n_missingValues != n_totalValues:
                                             if i == Schema_File["NumberofColumns"] - 1:
-                                                _ = shutil.copy(file, LocalPath["GoodFiles"] + FileName)
+                                                _ = shutil.move(file, LocalPath["GoodFiles"] + FileName)
                                                 self.LogsList.append(["Validations", f"Column Validation: Missing values in Column", datetime.now(), f"{FileName}", "Validation Success", f"{FileName} is moved to GoodFiles folder"])
                                         else:
-                                            _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                                            _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                                             self.LogsList.append(["Validations", f"Column Validation: Missing values in Column", datetime.now(), f"{FileName}", f"Failed: {file_ColumnNames[i]} has {n_missingValues} missing values", f"{FileName} is moved to BadFiles folder"])
                                             break
                                     else:
-                                        _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                                        _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                                         self.LogsList.append(["Validations", f"Column Validation: Data type of Column", datetime.now(), f"{FileName}", f"Failed: {file_ColumnNames[i]} has {str(file_ColumnDTypes[i])}", f"{FileName} is moved to BadFiles folder"])
                                         break
                                 else:
-                                    _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                                    _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                                     self.LogsList.append(["Validations", f"Column Validation: Name of Column", datetime.now(), f"{FileName}", f"Failed: {file_ColumnNames[i]} column is failed", f"{FileName} is moved to BadFiles folder"])
                                     break
                         else:
-                            _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                            _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                             self.LogsList.append(["Validations", f"Column Validation: Number of Columns", datetime.now(), f"{FileName}", f"Failed: {FileName} has {len(df.columns)} columns",f"{FileName} is moved to BadFiles folder"])
                     else:
-                        _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                        _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                         self.LogsList.append(["Validations", f"Name Validation: Timestamp", datetime.now(), f"{FileName}", f"Failed: TimeDigits and TimeLength -> {FileNameList[2]}", ""])
                 else:
-                    _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                    _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                     self.LogsList.append(["Validations", f"Name Validation: Datestamp", datetime.now(), f"{FileName}",f"Failed: DateDigits & DateLength -> {FileNameList[1]}", ""])
             else:
-                _ = shutil.copy(file, LocalPath["BadFiles"] + FileName)
+                _ = shutil.move(file, LocalPath["BadFiles"] + FileName)
                 self.LogsList.append(["Validations", f"Name Validation: Wafer", datetime.now(), f"{FileName}", f"Failed: {FileNameList[0]} != 'Wafer", ""])
         self.LogsList.append(["Validations", f"File names and Describe validations", datetime.now(), "", "Completed", ""])
         self.Logs.storeLogs(self.LogsList)
