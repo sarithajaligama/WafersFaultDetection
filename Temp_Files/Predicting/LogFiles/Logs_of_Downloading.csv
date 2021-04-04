@@ -1,0 +1,197 @@
+Task_Name,Task_Desc,Date_Time,File_Name,Log_Message,Action_Taken
+AWS Connection,"Session, Resource, Client connections",2021-03-31 16:31:11.450217,,Started,
+AWS Connection,Session Connection,2021-03-31 16:31:11.496220,,Session connection Successful,
+AWS Connection,Resource Connection,2021-03-31 16:31:11.938245,,Resource connection Successful,
+AWS Connection,Client Connection,2021-03-31 16:31:11.951246,,Client connection Successful,
+Download,Downloading From: Predicting/RawFiles/ To: Temp_Files/Predicting/RawFiles/,2021-03-31 16:31:11.951246,,Started,
+Download,Access Files from Bucket: faultdetectioninwafer,2021-03-31 16:31:13.786351,,19 files are available,Downloading Files
+Download,Downloading File,2021-03-31 16:31:16.261492,Predicting/RawFiles/Wafer_13012020_141000.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:18.049595,Predicting/RawFiles/Wafer_14012020_113045.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:19.284665,Predicting/RawFiles/Wafer_15010_130532.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:20.870756,Predicting/RawFiles/wafer_07012020_041011.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:23.061881,Predicting/RawFiles/wafer_13012020_090817.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:25.059996,Predicting/RawFiles/wafer_16012020_051629.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:26.986106,Predicting/RawFiles/wafer_20012020_090819.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:27.961162,Predicting/RawFiles/wafer_20022020_090716.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:29.621257,Predicting/RawFiles/wafer_21012020_080913.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:31.300353,Predicting/RawFiles/wafer_22022020_041119.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:32.828440,Predicting/RawFiles/wafer_23012020_011008.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:34.417531,Predicting/RawFiles/wafer_23012020_041211.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:36.437646,Predicting/RawFiles/wafer_27012020_080911.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:39.089798,Predicting/RawFiles/wafer_28012020_051011.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:41.040910,Predicting/RawFiles/wafer_28012020_090817.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:42.769009,Predicting/RawFiles/wafer_28042020_031911.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:44.698119,Predicting/RawFiles/wafer_29012020_050617.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:46.415217,Predicting/RawFiles/wafer_29012020_060756.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 16:31:48.195319,Predicting/RawFiles/wafer_31012020_090811.csv,Downloaded Successfully,
+Download,Downloading From: Predicting/RawFiles/ To: Temp_Files/Predicting/RawFiles/,2021-03-31 16:31:48.195319,,Completed,19 files are downloaded successfully
+Download,Downloading From: Predicting/SchemaFile/ To: Temp_Files/Predicting/SchemaFile/,2021-03-31 16:31:48.586341,,Started,
+Download,Access Files from Bucket: faultdetectioninwafer,2021-03-31 16:31:50.312440,,1 files are available,Downloading Files
+Download,Downloading File,2021-03-31 16:31:51.836527,Predicting/SchemaFile/schema_prediction.json,Downloaded Successfully,
+Download,Downloading From: Predicting/SchemaFile/ To: Temp_Files/Predicting/SchemaFile/,2021-03-31 16:31:51.836527,,Completed,1 files are downloaded successfully
+AWS Connection,"Session, Resource, Client connections",2021-03-31 17:50:34.041622,,Started,
+AWS Connection,Session Connection,2021-03-31 17:50:34.133627,,Session connection Successful,
+AWS Connection,Resource Connection,2021-03-31 17:50:38.011849,,Resource connection Successful,
+AWS Connection,Client Connection,2021-03-31 17:50:38.060852,,Client connection Successful,
+Upload,Deleting Folder from Bucket,2021-03-31 17:50:43.983191,,Deleted,Folder Predicting/GoodFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/GoodFiles/ To: Predicting/GoodFiles/,2021-03-31 17:50:43.983191,,Started,
+Upload,Uploading File,2021-03-31 17:50:50.103541,wafer_13012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:50:56.053881,wafer_16012020_051629.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:50:58.496021,wafer_20022020_090716.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:04.136343,wafer_21012020_080913.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:09.978677,wafer_23012020_041211.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:15.865014,wafer_27012020_080911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:22.025366,wafer_28012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:27.769695,wafer_28042020_031911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:34.813098,wafer_29012020_050617.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/GoodFiles/ To: Predicting/GoodFiles/,2021-03-31 17:51:34.813098,,Completed,9 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:51:41.151460,,Deleted,Folder Predicting/BadFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/BadFiles/ To: Predicting/BadFiles/,2021-03-31 17:51:41.151460,,Started,
+Upload,Uploading File,2021-03-31 17:51:46.842786,wafer_07012020_041011.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:52.116087,Wafer_13012020_141000.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:51:57.336386,Wafer_14012020_113045.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:02.547684,Wafer_15010_130532.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:08.362017,wafer_20012020_090819.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:14.047342,wafer_22022020_041119.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:19.722667,wafer_23012020_011008.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:25.511998,wafer_28012020_051011.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:31.237325,wafer_29012020_060756.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:36.912650,wafer_31012020_090811.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/BadFiles/ To: Predicting/BadFiles/,2021-03-31 17:52:36.912650,,Completed,10 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:52:42.437966,,Deleted,Folder Predicting/TransformedFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/TransformedFiles/ To: Predicting/TransformedFiles/,2021-03-31 17:52:42.437966,,Started,
+Upload,Uploading File,2021-03-31 17:52:49.150350,wafer_13012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:55.563716,wafer_16012020_051629.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:52:58.538887,wafer_20022020_090716.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:53:05.059260,wafer_21012020_080913.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:53:11.469626,wafer_23012020_041211.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:53:17.884993,wafer_27012020_080911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:53:24.355363,wafer_28012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:53:31.143752,wafer_28042020_031911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:53:37.532117,wafer_29012020_050617.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/TransformedFiles/ To: Predicting/TransformedFiles/,2021-03-31 17:53:37.532117,,Completed,9 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:53:41.056319,,Deleted,Folder Predicting/SingleFile/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/SingleFile/ To: Predicting/SingleFile/,2021-03-31 17:53:41.056319,,Started,
+Upload,Uploading File,2021-03-31 17:54:32.474259,SingleFile.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:56:21.623502,SingleScaled_File.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/SingleFile/ To: Predicting/SingleFile/,2021-03-31 17:56:21.623502,,Completed,2 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:56:24.641675,,Deleted,Folder Predicting/LogFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/LogFiles/ To: Predicting/LogFiles/,2021-03-31 17:56:24.641675,,Started,
+Upload,Uploading File,2021-03-31 17:57:12.585417,Logs_of_AllTransactions.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:13.144449,Logs_of_Downloading.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:13.717482,Logs_of_LocalFolderCreation.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:14.233512,Logs_of_Merging.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:14.769542,Logs_of_Predictions.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:15.334575,Logs_of_Preprocess.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:21.008899,Logs_of_Transform.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:42.511129,Logs_of_Validated.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 17:57:43.287173,MissingValues_of_Files.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/LogFiles/ To: Predicting/LogFiles/,2021-03-31 17:57:43.287173,,Completed,9 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:57:46.449354,,Deleted,Folder Predicting/Clusters/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/Models/Clusters/ To: Predicting/Clusters/,2021-03-31 17:57:46.449354,,Started,
+Upload,Uploading From: Temp_Files/Predicting/Models/Clusters/ To: Predicting/Clusters/,2021-03-31 17:57:46.450354,,Completed,0 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:57:48.167452,,Deleted,Folder Predicting/BestModels/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/Models/BestModels/ To: Predicting/BestModels/,2021-03-31 17:57:48.167452,,Started,
+Upload,Uploading From: Temp_Files/Predicting/Models/BestModels/ To: Predicting/BestModels/,2021-03-31 17:57:48.167452,,Completed,0 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 17:57:51.120621,,Deleted,Folder Predicting/Predictions/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/Predictions/ To: Predicting/Predictions/,2021-03-31 17:57:51.120621,,Started,
+Upload,Uploading File,2021-03-31 17:59:38.507764,Predictions.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/Predictions/ To: Predicting/Predictions/,2021-03-31 17:59:38.507764,,Completed,1 files are uploaded successfully
+AWS Connection,"Session, Resource, Client connections",2021-03-31 18:13:40.139902,,Started,
+AWS Connection,Session Connection,2021-03-31 18:13:40.314912,,Session connection Successful,
+AWS Connection,Resource Connection,2021-03-31 18:13:48.204363,,Resource connection Successful,
+AWS Connection,Client Connection,2021-03-31 18:13:48.263367,,Client connection Successful,
+Download,Downloading From: Predicting/RawFiles/ To: Temp_Files/Predicting/RawFiles/,2021-03-31 18:13:48.263367,,Started,
+Download,Access Files from Bucket: faultdetectioninwafer,2021-03-31 18:13:51.513553,,19 files are available,Downloading Files
+Download,Downloading File,2021-03-31 18:13:54.160704,Predicting/RawFiles/Wafer_13012020_141000.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:13:55.065756,Predicting/RawFiles/Wafer_14012020_113045.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:13:55.908804,Predicting/RawFiles/Wafer_15010_130532.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:13:56.842858,Predicting/RawFiles/wafer_07012020_041011.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:13:57.743909,Predicting/RawFiles/wafer_13012020_090817.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:13:58.589957,Predicting/RawFiles/wafer_16012020_051629.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:13:59.513010,Predicting/RawFiles/wafer_20012020_090819.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:00.259053,Predicting/RawFiles/wafer_20022020_090716.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:01.166105,Predicting/RawFiles/wafer_21012020_080913.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:02.058156,Predicting/RawFiles/wafer_22022020_041119.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:03.023211,Predicting/RawFiles/wafer_23012020_011008.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:03.956264,Predicting/RawFiles/wafer_23012020_041211.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:04.978323,Predicting/RawFiles/wafer_27012020_080911.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:05.942378,Predicting/RawFiles/wafer_28012020_051011.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:06.887432,Predicting/RawFiles/wafer_28012020_090817.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:07.862488,Predicting/RawFiles/wafer_28042020_031911.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:08.897547,Predicting/RawFiles/wafer_29012020_050617.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:09.948607,Predicting/RawFiles/wafer_29012020_060756.csv,Downloaded Successfully,
+Download,Downloading File,2021-03-31 18:14:10.944664,Predicting/RawFiles/wafer_31012020_090811.csv,Downloaded Successfully,
+Download,Downloading From: Predicting/RawFiles/ To: Temp_Files/Predicting/RawFiles/,2021-03-31 18:14:10.944664,,Completed,19 files are downloaded successfully
+Download,Downloading From: Predicting/SchemaFile/ To: Temp_Files/Predicting/SchemaFile/,2021-03-31 18:14:15.317914,,Started,
+Download,Access Files from Bucket: faultdetectioninwafer,2021-03-31 18:14:17.578044,,1 files are available,Downloading Files
+Download,Downloading File,2021-03-31 18:14:19.295142,Predicting/SchemaFile/schema_prediction.json,Downloaded Successfully,
+Download,Downloading From: Predicting/SchemaFile/ To: Temp_Files/Predicting/SchemaFile/,2021-03-31 18:14:19.295142,,Completed,1 files are downloaded successfully
+AWS Connection,"Session, Resource, Client connections",2021-03-31 18:27:49.524484,,Started,
+AWS Connection,Session Connection,2021-03-31 18:27:49.602489,,Session connection Successful,
+AWS Connection,Resource Connection,2021-03-31 18:27:52.252640,,Resource connection Successful,
+AWS Connection,Client Connection,2021-03-31 18:27:52.278642,,Client connection Successful,
+Upload,Deleting Folder from Bucket,2021-03-31 18:27:57.979968,,Deleted,Folder Predicting/GoodFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/GoodFiles/ To: Predicting/GoodFiles/,2021-03-31 18:27:57.979968,,Started,
+Upload,Uploading File,2021-03-31 18:28:03.893306,wafer_13012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:09.808644,wafer_16012020_051629.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:12.258785,wafer_20022020_090716.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:17.997113,wafer_21012020_080913.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:23.738441,wafer_23012020_041211.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:29.532773,wafer_27012020_080911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:35.715126,wafer_28012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:41.416452,wafer_28042020_031911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:28:47.052775,wafer_29012020_050617.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/GoodFiles/ To: Predicting/GoodFiles/,2021-03-31 18:28:47.052775,,Completed,9 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:28:55.194240,,Deleted,Folder Predicting/BadFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/BadFiles/ To: Predicting/BadFiles/,2021-03-31 18:28:55.194240,,Started,
+Upload,Uploading File,2021-03-31 18:29:01.100578,wafer_07012020_041011.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:06.502887,Wafer_13012020_141000.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:12.150210,Wafer_14012020_113045.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:17.446513,Wafer_15010_130532.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:23.199842,wafer_20012020_090819.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:28.978173,wafer_22022020_041119.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:34.898511,wafer_23012020_011008.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:40.855852,wafer_28012020_051011.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:46.789191,wafer_29012020_060756.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:29:52.930543,wafer_31012020_090811.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/BadFiles/ To: Predicting/BadFiles/,2021-03-31 18:29:52.930543,,Completed,10 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:30:02.505090,,Deleted,Folder Predicting/TransformedFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/TransformedFiles/ To: Predicting/TransformedFiles/,2021-03-31 18:30:02.505090,,Started,
+Upload,Uploading File,2021-03-31 18:30:08.981461,wafer_13012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:15.285821,wafer_16012020_051629.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:18.194988,wafer_20022020_090716.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:24.544351,wafer_21012020_080913.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:30.948717,wafer_23012020_041211.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:37.309081,wafer_27012020_080911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:43.884457,wafer_28012020_090817.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:50.587840,wafer_28042020_031911.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:30:57.071211,wafer_29012020_050617.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/TransformedFiles/ To: Predicting/TransformedFiles/,2021-03-31 18:30:57.071211,,Completed,9 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:31:03.285567,,Deleted,Folder Predicting/SingleFile/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/SingleFile/ To: Predicting/SingleFile/,2021-03-31 18:31:03.285567,,Started,
+Upload,Uploading File,2021-03-31 18:31:54.823515,SingleFile.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:33:43.529732,SingleScaled_File.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/SingleFile/ To: Predicting/SingleFile/,2021-03-31 18:33:43.529732,,Completed,2 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:33:51.489187,,Deleted,Folder Predicting/LogFiles/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/LogFiles/ To: Predicting/LogFiles/,2021-03-31 18:33:51.489187,,Started,
+Upload,Uploading File,2021-03-31 18:35:35.345128,Logs_of_AllTransactions.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:35:36.102171,Logs_of_Downloading.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:35:37.026224,Logs_of_LocalFolderCreation.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:35:37.560254,Logs_of_Merging.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:35:38.073284,Logs_of_Predictions.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:35:38.578313,Logs_of_Preprocess.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:35:49.418933,Logs_of_Transform.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:36:32.232381,Logs_of_Validated.csv,Uploaded Successfully,
+Upload,Uploading File,2021-03-31 18:36:33.037427,MissingValues_of_Files.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/LogFiles/ To: Predicting/LogFiles/,2021-03-31 18:36:33.037427,,Completed,9 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:36:41.139891,,Deleted,Folder Predicting/Clusters/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/Models/Clusters/ To: Predicting/Clusters/,2021-03-31 18:36:41.139891,,Started,
+Upload,Uploading From: Temp_Files/Predicting/Models/Clusters/ To: Predicting/Clusters/,2021-03-31 18:36:41.140891,,Completed,0 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:36:49.092346,,Deleted,Folder Predicting/BestModels/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/Models/BestModels/ To: Predicting/BestModels/,2021-03-31 18:36:49.092346,,Started,
+Upload,Uploading From: Temp_Files/Predicting/Models/BestModels/ To: Predicting/BestModels/,2021-03-31 18:36:49.092346,,Completed,0 files are uploaded successfully
+Upload,Deleting Folder from Bucket,2021-03-31 18:36:55.333703,,Deleted,Folder Predicting/Predictions/ is successfully deleted from Bucket faultdetectioninwafer
+Upload,Uploading From: Temp_Files/Predicting/Predictions/ To: Predicting/Predictions/,2021-03-31 18:36:55.333703,,Started,
+Upload,Uploading File,2021-03-31 18:38:43.338880,Predictions.csv,Uploaded Successfully,
+Upload,Uploading From: Temp_Files/Predicting/Predictions/ To: Predicting/Predictions/,2021-03-31 18:38:43.338880,,Completed,1 files are uploaded successfully

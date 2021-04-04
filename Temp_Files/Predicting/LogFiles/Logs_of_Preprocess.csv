@@ -1,0 +1,13 @@
+Task_Name,Task_Desc,Date_Time,File_Name,Log_Message,Action_Taken
+Preprocess,Preprocessing Predicting data,2021-03-31 16:36:14.173532,,Started,
+Preprocess,Loading File,2021-03-31 16:36:14.551554,SingleFile.csv,Data frame created with the file,
+Preprocess,Loading File,2021-03-31 16:36:15.007580,SingleScaled_File.csv,Scaling Predictors,
+Preprocess,Scaling values,2021-03-31 16:36:15.031581,SingleFile.csv,Scaling Predictors,
+Preprocess,Storing File,2021-03-31 16:36:17.652731,SingleScaled_File.csv,SinglScaledFile is stored in SingleFiles fodler,
+Preprocess,Preprocessing Predicting data,2021-03-31 16:36:17.652731,,Completed,
+Preprocess,Preprocessing Predicting data,2021-03-31 18:27:22.956965,,Started,
+Preprocess,Loading File,2021-03-31 18:27:23.673006,SingleFile.csv,Data frame created with the file,
+Preprocess,Loading File,2021-03-31 18:27:24.674063,SingleScaled_File.csv,Scaling Predictors,
+Preprocess,Scaling values,2021-03-31 18:27:24.795070,SingleFile.csv,Scaling Predictors,
+Preprocess,Storing File,2021-03-31 18:27:30.007368,SingleScaled_File.csv,SinglScaledFile is stored in SingleFiles fodler,
+Preprocess,Preprocessing Predicting data,2021-03-31 18:27:30.007368,,Completed,
